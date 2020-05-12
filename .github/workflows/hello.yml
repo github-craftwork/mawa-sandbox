@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest # useful environment to we can run a simple bash    
     steps:
     - name: hello-world
-      run: echo "hello $NAME"
+      run: echo "hello $NAME, hello $GITHUB_ACTOR"
       env:
         NAME: Mary
